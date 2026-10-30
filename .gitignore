@@ -1,0 +1,27 @@
+
+# --- chatbot-platform ---
+# secrets (NEVER commit these)
+.env
+.env.*
+!.env.example
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.sqlite3
+
+# node
+node_modules/
+dist/
+
+# django
+backend/media/
+backend/staticfiles/
+
+# editors / os
+.idea/
+.DS_Store
+*.log
